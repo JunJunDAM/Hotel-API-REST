@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Vinos - jQuery - REST API - JEE</title>
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        <div class="header">
+            <input type="text" id="campoBusqueda" />
+            <button class="btnBusqueda">Buscar</button>
+            <button class="new">Nuevo Vino</button>
+        </div>
+
+        <div class="areaLista">
+            <ul id="listaHoteles"></ul>
+        </div>
+
+        <form>
+            <div class="areaDetalle">
+                <label>Id:</label>
+                <input id="hotel_id" name="id" disabled />
+
+                <label>Hotel Name:</label>
+                <input id="hotel_name" name="hotel_name" required />
+
+                <label>Stars:</label>
+                <input id="stars" name="stars" />
+
+                <label>City:</label>
+                <input id="city" name="city" />
+
+                <label>Description:</label>
+                <input id="description" name="description" />
+
+                <label>Price:</label>
+                <input id="price" name="price" />
+
+                <br/>
+                <button id="btnSave" class="save">Guardar</button>			
+                <button id="btnDelete" class="remove">Eliminar</button>		
+            </div> 
+        </form>
+
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
